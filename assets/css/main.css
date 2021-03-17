@@ -2349,7 +2349,7 @@ input, select, textarea {
 
 	.icon.alt {
 		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #333333;
 	}
 
 		.icon.alt:hover {
