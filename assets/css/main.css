@@ -2718,7 +2718,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px;
+			border: 0;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2769,11 +2769,11 @@ input, select, textarea {
 			}
 
 	table tbody tr {
-		border-color: rgba(255, 255, 255, 0.35);
+		border-color: #ffffff;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: #ffffff;
 		}
 
 	table th {
@@ -2781,15 +2781,15 @@ input, select, textarea {
 	}
 
 	table thead {
-		border-bottom-color: rgba(255, 255, 255, 0.35);
+		border-bottom-color: #ffffff;
 	}
 
 	table tfoot {
-		border-top-color: rgba(255, 255, 255, 0.35);
+		border-top-color: #ffffff;
 	}
 
 	table.alt tbody tr td {
-		border-color: rgba(255, 255, 255, 0.35);
+		border-color: #ffffff;
 	}
 
 /* Features */
