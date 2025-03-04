@@ -1802,7 +1802,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		border-radius: 0px;
+		border-radius: 8px;
 		border: solid;
 		margin-bottom: 2em;
 		padding: 1.5em;
@@ -2999,7 +2999,7 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			border-radius: 0%;
 			border: solid 1px;
 		}
 
