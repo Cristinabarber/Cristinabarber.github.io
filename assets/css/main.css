@@ -2985,8 +2985,8 @@ input, select, textarea {
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
-			border-left: 2px solid black; /* Add a vertical black line between image and content */
-        		padding-left: 2em; /* Add padding to avoid text touching the line */
+			border-left: 2px solid black;
+        		padding-left: 2em; 
 		}
 
 			.spotlight .content > :last-child {
