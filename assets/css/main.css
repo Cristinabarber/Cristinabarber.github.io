@@ -2985,6 +2985,8 @@ input, select, textarea {
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
+			border-left: 2px solid black; /* Add a vertical black line between image and content */
+        		padding-left: 2em; /* Add padding to avoid text touching the line */
 		}
 
 			.spotlight .content > :last-child {
@@ -2998,8 +3000,6 @@ input, select, textarea {
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
-			border: solid 1px;
 		}
 
 			.spotlight .image img {
@@ -3023,6 +3023,8 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					width: 100%;
+					border-left: none; /* Remove the border on small screens */
+            				padding-left: 0;
 				}
 
 					.spotlight .content header.major h2:after {
